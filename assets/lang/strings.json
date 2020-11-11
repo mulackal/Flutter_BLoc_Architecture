@@ -1,0 +1,6 @@
+{
+  "title": "MY BLOC!",
+  "Message" : "This is Demo",
+  "base_url_login" : "http://159.65.151.120/i-abide/web/api",
+  "base_url_list" : "http://dummy.restapiexample.com/api/v1/employees"
+}
