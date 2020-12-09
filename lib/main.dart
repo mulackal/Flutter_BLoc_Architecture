@@ -3,6 +3,7 @@ import 'package:beautysquare/styles/colors.dart';
 import 'package:beautysquare/util/custom_pagination.dart';
 import 'package:beautysquare/util/logger_util.dart';
 import 'package:beautysquare/util/resource_string.dart';
+import 'package:beautysquare/view/news/news_pages.dart';
 import 'package:beautysquare/util/shared_Preference_manager.dart';
 import 'package:beautysquare/view/login/login_pages_block.dart';
 import 'package:beautysquare/view/splash/splashpage.dart';
@@ -25,6 +26,7 @@ void main() async {
   var routes = <String, WidgetBuilder>{
     "/splash": (BuildContext context) =>  SplashScreen(),
     "/login": (BuildContext context) => new LoginPagesBlock(),
+    "/news": (BuildContext context) => new NewsPage(),
   };
 
   config();
